@@ -1,0 +1,10 @@
+# openwolf
+.wolf/buglog.json
+.wolf/hooks/_session.json
+.wolf/memory.md
+.wolf/token-ledger.json
+.wolf/daemon.log
+.wolf/anatomy.md
+
+# omc
+.omc/
