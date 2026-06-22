@@ -1,0 +1,23 @@
+{
+  "skill_name": "llmfusion",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请用 llmfusion 帮我判断：一个中型 TypeScript 服务要不要把业务校验从路由层搬到领域服务层？我更关心长期维护成本、测试策略和渐进迁移风险。",
+      "expected_output": "Uses a four-model panel and returns a fused recommendation with clear trade-offs, consensus, disagreements, blind spots, and a concrete next step.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "请用 llmfusion 多角度分析这个问题：某个 React 页面首次加载很慢，但 profiler 里既像是网络瓶颈，也像是组件重复渲染。请给我一个多模型综合判断，优先找排查顺序。",
+      "expected_output": "Produces independent bug-analysis perspectives and a fused debugging order rather than a single shallow guess.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "请用 llmfusion 做一个轻量技术调研：如果我要在 Claude Code 里做类 Fusion 的机制，什么时候该用普通回答，什么时候该用 panel + judge？请给出清晰边界。",
+      "expected_output": "Returns a synthesis that explains when fusion is worth the added latency/cost and when a normal single-pass answer is enough.",
+      "files": []
+    }
+  ]
+}
